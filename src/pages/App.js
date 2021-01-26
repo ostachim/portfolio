@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="portfolio">
       <header>
-          <h2>Michał Ostachowski</h2>
 
           <nav>
             <ul>
@@ -21,8 +20,12 @@ function App() {
       </header>
 
       <div className="background">
-        <h2>Hi, My name is</h2>
-        <h1>Michał.</h1>
+        <div className="helloText">
+          <h2>Hi, My name is</h2>
+          <h1>Michał.</h1>
+          <h2>Nice to meet you</h2>
+        </div>
+        
 
         
         <div className="code">  
@@ -51,18 +54,18 @@ function App() {
         </div>
 
         <div className="technology">
-          
+          Technology
         </div>
 
         <div className="language">
-          
+          Language
         </div>
 
         <div className="hobby">
-          
+          hobby
         </div>
         <div className="contact">
-          
+          contact
         </div>
 
       </main>
